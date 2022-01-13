@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contact_form">
+        <div class="formulario">
+            <h1>Inicia Sesión</h1>
+        </div>
+
+        <form action="" method="">
+
+            <p>
+                <label class="colocar_nombre">Nombre o Correo Electronico</label>
+                <input type="text" required="obligatorio" placeholder="">
+            </p>
+
+            <p>
+                <label class="colocar_password">Contraseña</label>
+                <input id="password" type="password" placeholder="" required="obligatorio">
+                <a type="button" onclick="cambioojo(); mostrarcontrasena()"><img src="ojo.png" class="ojo" id="ojo"><img src="ojocerrado.png" class="cerrado" id="cerrado"></a>
+            </p>
+
+            <p>
+                <button>Entrar</button>
+            </p>
+
+        </form>
+
+    </div>
+
+    <script>
+
+        var ojo = document.getElementById("ojo")
+        var cerrado = document.getElementById("cerrado")
+        var tipo = document.getElementById("password");
+
+        function cambioojo(){
+            if(ojo.style.visibility == "inherit"){
+                ojo.style.visibility = "hidden";
+                cerrado.style.visibility = "inherit";
+            }else{
+                ojo.style.visibility = "inherit";
+                cerrado.style.visibility = "hidden";
+            }
+        }
+
+        function mostrarcontrasena(){
+            if(tipo.type == "password"){
+                tipo.type = "text";
+            }else{
+                tipo.type = "password";
+            }
+        }
+
+      </script>
+    
+</body>
+</html>

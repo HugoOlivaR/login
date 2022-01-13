@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    background-color: #abffff;
+}
+
+.contact_form{
+    width: 460px;
+    height: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgb(43, 174, 226);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+input {
+    background-color: #96c1fa;
+    height: 40px;
+    width: 408px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+textarea {
+    background-color: #96c1fa;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+
+button {
+    width: 420px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border: black solid 2px;
+    margin-top: 15px;
+    transition: 0.1s ease-out;
+    background-color: #96c1fa;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(106, 165, 255);
+}
+    
+
+label {
+    display:block;
+    float: center;
+}
+
+.ojo {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: -50px;
+    visibility: hidden;
+}
+
+.cerrado {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -45px;
+    left: 380px;
+    visibility: inherit;
+}
+
